@@ -1,0 +1,232 @@
+
+body {
+
+font-family: 'Roboto', sans-serif;
+background-color: aliceblue;
+
+}
+
+
+
+
+ul li {
+	
+list-style: none;
+width:  100%;
+height: 60px;
+text-align: center;
+text-transform: uppercase;
+transition: 0.5s;
+
+}
+
+
+
+
+a {
+ 
+  transition: all 0.5s;
+  color: aliceblue;
+  font-weight: bold;
+}
+
+a:hover {
+  text-opacity: 0.75;
+color: #00A9D8;
+}
+
+
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: white;
+  z-index: 1;
+}
+header a {
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+.portraits {
+	
+padding-top: 2em;
+}
+
+nav {
+  display: inline-block;
+  position: absolute;
+  right: 100%;
+  top: 2.0em;
+  height: 100%;
+  background: rgba(48,48,48,0.55);
+  min-height: 100vh;
+  width: 75%;
+  max-width: 20em;
+ transition: right 0.7s ease;
+overflow: auto;
+z-index: -1;
+  
+}
+nav ul {
+    display: block;
+    margin: 0;
+	padding: 1em;
+	margin-bottom: 2em;
+	
+	
+	
+}
+nav li {
+  display: block;
+  margin: 1em 1.5em;
+  text-align: center;
+  
+  
+}
+
+
+
+
+main { 
+margin-top: 2em;
+height: 100%;
+
+}
+
+
+
+ul {
+	
+list-style-type: none;
+margin: 0;
+padding: 0;
+z-index: 2;
+}
+
+
+
+h1{
+font-family: 'Roboto', sans-serif;
+text-align: center;
+font-size: 3em;
+color:#0C88B4;
+font-weight: 800;
+padding: 1.5em;
+
+	
+}
+
+
+
+.phaseonelogo{
+	
+width: 40em;
+
+	
+}
+.Title{
+	
+padding-top: 17em;
+position: absolute;
+left: 50em;
+
+}
+
+h5 {
+color: #171717;
+font-weight: 300;
+font-family: 'Roboto', sans-serif;
+font-size: 2.5em;
+text-transform: capitalize;
+letter-spacing: 2px;
+
+	
+}
+
+
+
+.nav-toggle {
+  cursor: pointer;
+  position: absolute;
+  top: 1em;
+  left: 3em;
+z-index: 0;
+
+
+}
+
+
+.nav-toggle:hover {
+	
+opacity: 0.5;
+}
+
+.nav-active nav {
+    left: -1em;
+	display: inline;
+	float: right;
+	
+}
+
+
+
+.topnav {
+    background-color: #909090;
+    overflow: hidden;
+	z-index: 2;
+	
+}
+
+
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 13px 10px;
+    text-decoration: none;
+    font-size: 17px;
+	z-index: 1;
+}
+
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+	z-index: 1;
+	
+}
+
+                                                                    
+
+
+
+
+
+.phaseone{
+
+	
+margin-left:  8em;
+margin-top: 0.2em;
+
+}
+
+
+
+.navlist {
+  list-style-type: none;
+  margin: 3em;
+  margin-top: 5em;
+}
+
+
+
+
+
+
+
+
+
+
+

@@ -145,7 +145,16 @@ letter-spacing: 2px;
 	
 }
 
+h6 {
 
+color: aliceblue;
+font-weight: 800;
+font-family: 'Roboto', sans-serif;
+font-size: 3em;
+text-transform: capitalize;
+letter-spacing: 2px;
+
+}
 
 .nav-toggle {
   cursor: pointer;
@@ -200,7 +209,13 @@ opacity: 0.5;
 
                                                                     
 
-
+.VenueText{
+	
+position: absolute;
+z-index: 2;
+left: 30em;
+top: 165em;
+}
 
 
 
@@ -231,13 +246,37 @@ margin-top: 0.2em;
   background-color: white;
   border: solid 5px black;
   margin: auto;
+ 
 
 }
+
+.slideshow-container2 {
+
+max-width: 100%;
+  max-height: 1000px;
+ left: 0;
+  position: relative;
+  background-color: white;
+text-align: center;
+  margin: auto;
+
+}
+
+
+
 /*Slides*/
 .mySlides {
    max-width: 1000px;
   max-height:700px;
   background-size: contain;
+}
+
+.MySlides2{
+	
+   max-width: 100%;
+  max-height:1000px;
+  background-size: contain;	
+
 }
 
 /* Next & previous buttons */
@@ -364,7 +403,33 @@ p {
   }
 
 
+footer {
+	
+ background-color: #909090;
+    overflow: hidden;
+	z-index: 3;
+	padding: 1em;
+	magin: 1em;
+	color: aliceblue
+	
+	
 
+}
+
+.footnote{
+	
+float: right;
+font-size: 0.5em;
+
+}
+
+.Sponsors {
+	
+padding: 3em;
+
+	
+
+}
 
 
 

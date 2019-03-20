@@ -2,21 +2,27 @@
 body {
 
 font-family: 'Abel', sans-serif;
-background-color: aliceblue;
+background-color: white;
 
 }
 
 
-
+main {
+	
+padding-bottom: 5em;
+}
 
 ul li {
 	
 list-style: none;
-width:  100%;
 height: 60px;
-text-align: center;
+text-align: left;
 text-transform: uppercase;
 transition: 0.5s;
+font-size: 1.5em;
+padding-top: 3em;
+
+
 
 }
 
@@ -26,13 +32,14 @@ transition: 0.5s;
 a {
  
   transition: all 0.5s;
-  color: aliceblue;
+  color: white;
   font-weight: bold;
+	
 }
 
 a:hover {
   opacity: 0.75;
-color: #00A9D8;
+color: #0477BE;
 }
 
 
@@ -52,27 +59,33 @@ header a {
 .portraits {
 	
 padding-top: 2em;
+
+}
+
+.portrait-continer{
+	
+	position: relative;
+	
 }
 
 nav {
   display: inline-block;
   position: absolute;
-  right: 100%;
+  left: -100%;
   top: 2.0em;
-  height: 100%;
-  background: rgba(48,48,48,0.55);
+  height: 50%;
+  background: #0477BE;
   min-height: 100vh;
-  width: 75%;
-  max-width: 20em;
- transition: right 0.7s ease;
+  width: 85%;
+  max-width: 18em;
+ transition: left 0.7s ease;
 overflow: auto;
-z-index: -1;
-  
+z-index: 4;
+margin-top: 1.4em;
 }
 nav ul {
     display: block;
-    margin: 0;
-	padding: 1em;
+    margin: 1em;
 	margin-bottom: 2em;
 	
 	
@@ -80,12 +93,11 @@ nav ul {
 }
 nav li {
   display: block;
-  margin: 1em 1.5em;
-  text-align: center;
+ 
+  
   
   
 }
-
 
 
 
@@ -108,10 +120,10 @@ z-index: 2;
 
 
 h1{
-font-family: 'Roboto', sans-serif;
+
 text-align: center;
 font-size: 3em;
-color:#0C88B4;
+color: #0477BE;
 font-weight: 800;
 padding: 1.5em;
 
@@ -137,7 +149,6 @@ left: 50em;
 h5 {
 color: #171717;
 font-weight: 300;
-font-family: 'Roboto', sans-serif;
 font-size: 2.5em;
 text-transform: capitalize;
 letter-spacing: 2px;
@@ -147,9 +158,8 @@ letter-spacing: 2px;
 
 h6 {
 
-color: aliceblue;
+color: white;
 font-weight: 800;
-font-family: 'Roboto', sans-serif;
 font-size: 3em;
 text-transform: capitalize;
 letter-spacing: 2px;
@@ -166,6 +176,13 @@ z-index: 0;
 
 }
 
+.slideshow
+{
+	
+position: relative;	
+	
+	
+}
 
 .nav-toggle:hover {
 	
@@ -173,18 +190,49 @@ opacity: 0.5;
 }
 
 .nav-active nav {
-    left: -1em;
+    left: 0em;
 	display: inline;
-	float: right;
+	float: left;
+	
+	
 	
 }
 
 
+.menulogo{
+
+position: absolute;
+margin: 1em;
+padding: 1em;
+top: -19%;
+left: 0%;
+
+
+
+	
+}
+
+.video-container {
+	
+
+position: relative;
+
+}
+
+.introvideo {
+	
+width: 112%;
+height: auto;
+
+
+	
+}
 
 .topnav {
-    background-color: #909090;
+    background-color: #0477BE;
     overflow: hidden;
-	z-index: 2;
+	z-index: 3;
+     box-shadow: 0 1px 6px 3px #2A2A2A;
 	
 }
 
@@ -197,6 +245,7 @@ opacity: 0.5;
     text-decoration: none;
     font-size: 17px;
 	z-index: 1;
+	
 }
 
 
@@ -205,6 +254,7 @@ opacity: 0.5;
     color: black;
 	z-index: 1;
 	
+	
 }
 
                                                                     
@@ -212,9 +262,10 @@ opacity: 0.5;
 .VenueText{
 	
 position: absolute;
-z-index: 2;
-left: 30em;
-top: 165em;
+z-index: 1;
+left: 20%;
+top: 25%;
+font-size: 1em;
 }
 
 
@@ -223,13 +274,19 @@ top: 165em;
 
 	
 margin-left:  8em;
-margin-top: 0.2em;
+
 
 }
 
 
+.order{
+	
+position: relative;
+}
 
 .navlist {
+ 
+position: relative;
   list-style-type: none;
   margin: 3em;
   margin-top: 5em;
@@ -241,9 +298,8 @@ margin-top: 0.2em;
 .slideshow-container {
   max-width: 1000px;
   max-height:700px;
-top:0;
-  right: 3em;
-  position: absolute;
+  left: 0;
+  position: relative;
   background-color: white;
   border: solid 5px black;
   margin: auto;
@@ -256,7 +312,6 @@ top:0;
 max-width: 100%;
   max-height: 1000px;
  left: 0;
- top: 0;
   position: relative;
   background-color: white;
 text-align: center;
@@ -264,32 +319,23 @@ text-align: center;
 
 }
 
-.logo {
-  position: absolute;
-  left:12em;
-  width: 10%
-  height:10%;
-}
 
 
 /*Slides*/
 .mySlides {
    max-width: 1000px;
   max-height:700px;
-
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
-  animation-name: fade;
-  animation-duration: 1.5s;
-}
-
-
-}
-
-.mySlides img {
   background-size: contain;
-  overflow: auto;
 }
+
+.MySlides2{
+	
+   max-width: 100%;
+  max-height:1000px;
+  background-size: contain;	
+
+}
+
 /* Next & previous buttons */
 .prev, .next {
   cursor: pointer;
@@ -340,6 +386,12 @@ text-align: center;
 }
 
 /* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
 
 @-webkit-keyframes fade {
   from {opacity: .4} 
@@ -360,16 +412,13 @@ text-align: center;
     transform: translate(-50%, -50%);
     background: white;
     width: 100%;
-    height:85vh;
+    height:95vh;
     max-width: 100%;
     max-height: 95vh;
     overflow: auto;
     padding: 2em 1em;
     opacity: 0;
     transition: opacity 0.5s ease;
-}
-.relative {
-  position:relative;
 }
 #modal-active {
     opacity: 1;
@@ -384,15 +433,12 @@ text-align: center;
 }
 
 .contact {
-position: absolute;
-left: 20em;
-text-align: left;
+right: 0;
 }
 .contact img{
 width:30px;
 height: 30px;
 margin:0;
-left:0;
 }
 
 ul{
@@ -401,11 +447,8 @@ ul{
 }
 
 p {
-  max-width: 30em;
-  position:absolute;
-  bottom: 2em;
+  max-width: 30em;}
 
-}
   .modal a
   {
     
@@ -419,12 +462,12 @@ p {
 
 footer {
 	
- background-color: #909090;
+ background: #0477BE;
     overflow: hidden;
 	z-index: 3;
 	padding: 1em;
-	margin: 1em;
-	color: aliceblue
+	magin: 1em;
+	color: white;
 	
 	
 
@@ -433,7 +476,7 @@ footer {
 .footnote{
 	
 float: right;
-font-size: 0.5em;
+font-size: 0.7em;
 
 }
 
@@ -445,5 +488,15 @@ padding: 3em;
 
 }
 
+h7{
+	
+position: absolute;
+font-size: 1.7em;
+top: 60%;
+left: 40%;
+color: #FFFFFF;
+font-weight: 600;
 
+	
+}
 

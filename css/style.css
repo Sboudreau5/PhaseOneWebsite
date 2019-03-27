@@ -6,7 +6,6 @@ background-color: white;
 
 }
 
-
 main {
 	
 padding-bottom: 5em;
@@ -26,9 +25,6 @@ padding-top: 3em;
 
 }
 
-
-
-
 a {
  
   transition: all 0.5s;
@@ -42,7 +38,6 @@ a:hover {
 color: #0477BE;
 }
 
-
 header {
   position: fixed;
   top: 0;
@@ -50,23 +45,14 @@ header {
   background: white;
   z-index: 1;
 }
+
 header a {
   text-decoration: none;
   text-transform: uppercase;
   letter-spacing: 0.1em;
 }
 
-.portraits {
-	
-padding-top: 2em;
 
-}
-
-.portrait-container{
-	
-	position: relative;
-	
-}
 
 nav {
   display: inline-block;
@@ -81,8 +67,9 @@ nav {
  transition: left 0.7s ease;
 overflow: auto;
 z-index: 4;
-margin-top: 1.4em;
+margin-top: 1.2em;
 }
+
 nav ul {
     display: block;
     margin: 1em;
@@ -91,6 +78,7 @@ nav ul {
 	
 	
 }
+
 nav li {
   display: block;
  
@@ -99,30 +87,118 @@ nav li {
   
 }
 
-
-
 main { 
 margin-top: 2em;
 height: 100%;
 
 }
 
-
-
-
-
-
 h1{
 
 text-align: center;
 font-size: 3em;
 color: #0477BE;
-font-weight: 800;
-padding: 1.5em;
+font-weight: 600;
+padding-top: 3em;
+padding-bottom: 3em;
+letter-spacing: 10px;
+	
+}
+
+
+h2 {
+    
+padding-bottom: 5%;
+font-size: 2vw;
+
+    
+    
+}
+
+
+h3 {
+    color: #FFFFFF;
+    font-size: 1.2vw;
+    padding-top: 2%;
+padding-left: 25%;
+    top: 80%;
+    
+    
+
+}
+
+h5 {
+
+font-weight: 600;
+font-size: 150%;
+text-transform: capitalize;
+letter-spacing: 4px;
+position: absolute;
+top: 65%;
+left: 30%;
+color: #FFFFFF;
+text-align: left;
+
 
 	
 }
 
+
+h6 {
+
+color: white;
+font-weight: 800;
+font-size: 3vw;
+text-transform: capitalize;
+letter-spacing: 2px;
+letter-spacing: 5px;
+
+}
+
+
+footer {
+	
+
+    overflow: hidden;
+	z-index: 3;
+	position: relative;
+    height: 30em;
+    width: 70%;
+    float: right;
+   
+	
+	
+
+}
+
+
+
+.footer-image {
+    
+position: absolute;
+width: 100%;
+height: auto;
+left: 20%;
+
+
+
+}
+
+
+.directions-text{
+    
+align-content: center;
+text-align: center;
+}
+
+
+.logo-row {
+    
+position: relative;
+height: 50vw;
+    
+    
+}
 
 
 .phaseonelogo{
@@ -131,6 +207,7 @@ width: 40em;
 
 	
 }
+
 .Title{
 	
 padding-top: 17em;
@@ -139,25 +216,28 @@ left: 50em;
 
 }
 
-h5 {
-color: #171717;
-font-weight: 300;
-font-size: 2.5em;
-text-transform: capitalize;
-letter-spacing: 2px;
 
+.portraits {
 	
-}
-
-h6 {
-
-color: white;
-font-weight: 800;
-font-size: 3em;
-text-transform: capitalize;
-letter-spacing: 2px;
+padding-top: 2em;
+padding-bottom: 2em;
 
 }
+
+.portrait-container{
+	
+	position: relative;
+    text-align: center;
+    padding-top: 1em;
+	padding-bottom: 1em;
+}
+
+.student-photos:hover{   
+opacity: 0.5;
+cursor: pointer;
+}
+
+
 
 .nav-toggle {
   cursor: pointer;
@@ -170,15 +250,15 @@ z-index: 0;
 }
 
 .intro {
-  float:right;
+ 
   font-size:5em;
   z-index:-1;
 }
 
-.slideshow
-{
+.slideshow{
 	
-position: relative;	
+position: relative;
+
 	
 	
 }
@@ -212,20 +292,32 @@ left: 0%;
 }
 
 .video-container {
-	
 
-position: relative;
+    
+left: 5%;    
+position: absolute;
+
+    
 
 }
+
 
 .introvideo {
-	
-max-width: 100%;
-height: auto;
-
-
-	
+    
+width: 120%;
+overflow: hidden;
+height: 50%
 }
+
+
+.logo-text {
+    
+right: 23%;
+position: absolute;   
+top: 32%;
+
+}
+
 
 .topnav {
     background-color: #0477BE;
@@ -255,18 +347,44 @@ height: auto;
 	
 	
 }
-
-                                                                    
+                                                     
 
 .VenueText{
 	
 position: absolute;
 z-index: 1;
-left: 20%;
+left: 15%;
 top: 25%;
 font-size: 1em;
+height: 1em;
 }
 
+
+.venue-bar{
+    
+width: 55vw;
+height: 8vw;
+background-color: rgba(0,0,0, 0.5);
+position: absolute;
+z-index: 1;
+left: 0%;
+top: 35vw;
+
+
+
+}
+
+.VenueText2{
+	
+position: absolute;
+z-index: 1;
+left: 20%;
+top: 50%;
+font-size: 1em;
+
+color: #FFFFFF;
+
+}
 
 
 .phaseone{
@@ -313,12 +431,12 @@ position: relative;
 .slideshow-container2 {
 
 max-width: 100%;
-  max-height: 1000px;
-float:right; 
- position: relative;
-  background-color: white;
+
+
+position: relative;
+background-color: white;
 text-align: center;
-  margin: auto;
+ margin: auto;
 
 }
 
@@ -333,10 +451,16 @@ text-align: center;
 
 .MySlides2{
 	
-   max-width: 100%;
+   max-width: 1500px;
   max-height:1000px;
-  background-size: contain;	
+  
 
+}
+
+.slides {
+    
+width: 100%;
+height: 100%;
 }
 
 /* Next & previous buttons */
@@ -378,14 +502,15 @@ text-align: center;
   width: 15px;
   bottom: 0;
   margin: 0 2px;
+  border-radius: 10px;
   background-color: white;
-  border: solid 1px black;
   display: inline-block;
   transition: background-color 0.6s ease;
+  transform:translateY(-30px);
 }
 
 .active, .dot:hover {
-  background-color: #717171;
+  background-color: #0477BE;
 }
 
 /* Fading animation */
@@ -423,6 +548,7 @@ text-align: center;
     opacity: 0;
     transition: opacity 0.5s ease;
 }
+
 #modal-active {
     opacity: 1;
     top: 55%;
@@ -441,8 +567,6 @@ float: right;
 font-size: .8em;
 padding: 0 1em 3em 1em;
 }
-
-
 
 
 .contact img{
@@ -464,8 +588,7 @@ margin:0;
 }
 
 
-  .contact a
-  {
+  .contact a{
     
   color: #4a4a4a;
   text-decoration: none;
@@ -476,25 +599,8 @@ margin:0;
   }
 
 
-footer {
-	
- background: #0477BE;
-    overflow: hidden;
-	z-index: 3;
-	padding: 1em;
-	margin: 1em;
-	color: white;
-	
-	
 
-}
 
-.footnote{
-	
-float: right;
-font-size: 0.7em;
-
-}
 
 .Sponsors {
 	
@@ -504,18 +610,7 @@ padding: 3em;
 
 }
 
-h5{
-	
-position: absolute;
-font-size: 1.7em;
-top: 60%;
-left: 40%;
-color: #FFFFFF;
-font-weight: 600;
-letter-spacing: 0.05em;
 
-	
-}
 
 
 
@@ -598,13 +693,13 @@ letter-spacing: 0.05em;
   bottom: 0;
   margin: 0 2px;
   background-color: white;
-  border: solid 1px black;
+  
   display: inline-block;
   transition: background-color 0.6s ease;
 }
 
 .active, .dot:hover {
-  background-color: #717171;
+  background-color: #0477BE;
 }
 
 /* Fading animation */
@@ -692,8 +787,7 @@ margin:0;
   float:left;
 }
 
-
-  
+ 
 
 }
 
